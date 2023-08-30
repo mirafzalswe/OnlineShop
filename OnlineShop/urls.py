@@ -18,6 +18,7 @@ from django.contrib import admin
 from django.urls import path, include
 from product.views import ProductList, ProducTypeList, ProductDetail, ProductTypeDetail
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('product/', ProductList.as_view(), name='products'),
