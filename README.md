@@ -28,10 +28,10 @@ Once the server is running and you have created a superuser, you can access the 
 To access most of the API features, you need to be authenticated. Use the superuser credentials to log in.
 
 # Endpoints
-`api/product/`: You can check list prodcut and add new product 
-`api/product/<int:int>/`: You can update or delete product with item product
-`api/categories/`: You can add new categoreis for products
-`api/categories/<int:int>`: Also you can update or delete categories
+`api/product/`: You can check list prodcut and add new product .     
+`api/product/<int:int>/`: You can update or delete product with item product.     
+`api/categories/`: You can add new categoreis for products.    
+`api/categories/<int:int>`: Also you can update or delete categories.    
    
 
 
