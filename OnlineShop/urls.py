@@ -21,8 +21,10 @@ from product.views import ProductList, ProducTypeList, ProductDetail, ProductTyp
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('product/', ProductList.as_view(), name='products'),
-    path('categories/', ProducTypeList.as_view(), name='product-type'),
-    path('product/<int:pk>', ProductDetail.as_view(), name='product-detail'),
-    path('categories/<int:pk>', ProductTypeDetail.as_view(), name='type-detail')
+    path('api/product/', ProductList.as_view(), name='products'),
+    path('api/categories/', ProducTypeList.as_view(), name='product-type'),
+    path('api/product/<int:pk>', ProductDetail.as_view(), name='product-detail'),
+    path('api/categories/<int:pk>', ProductTypeDetail.as_view(), name='type-detail')
 ]
+
+
