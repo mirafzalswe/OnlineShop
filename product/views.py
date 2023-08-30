@@ -34,4 +34,5 @@ class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticated,)
 
 
-
+def home(reqeust):
+    return render(reqeust, 'product/home.html')
